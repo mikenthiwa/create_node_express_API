@@ -1,0 +1,36 @@
+{
+  "name": "create_node_express_api",
+  "version": "1.0.0",
+  "description": "Bootstrap for creating a Node.js and Express API",
+  "keywords": [
+    "CNE"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf ./build && tsc",
+    "start": "npm run build && node build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikenthiwa/create_node_express_API.git"
+  },
+  "author": "Michael Nthiwa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikenthiwa/create_node_express_API/issues"
+  },
+  "homepage": "https://github.com/mikenthiwa/create_node_express_API#readme",
+  "dependencies": {
+    "@types/body-parser": "^1.19.0",
+    "@types/express": "^4.17.3",
+    "@types/node": "^13.9.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2",
+    "rimraf": "^3.0.2",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.3"
+  }
+}
